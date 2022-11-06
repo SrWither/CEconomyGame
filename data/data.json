@@ -1,0 +1,14 @@
+{
+    "player": {
+        "balance": 10000,
+        "hp": 100,
+        "items": {
+            "axe": 0,
+            "fishrod": 0,
+            "pickaxe": 0
+        },
+        "limit": 10000,
+        "lvl": 1,
+        "name": "Fadel"
+    }
+}

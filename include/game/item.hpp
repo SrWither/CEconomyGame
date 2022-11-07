@@ -10,9 +10,9 @@ enum ItemList { PICKAXE, FISHROD, AXE };
 
 // Item properties
 typedef struct {
-  int id;
+  long long id;
   std::string name;
-  int lvl;
+  long long lvl;
 } ItemProps;
 
 

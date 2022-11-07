@@ -5,7 +5,7 @@ using json = nlohmann::json;
 
 namespace GameJson{
 
-void writeProp(std::string camp, int value){
+void writeProp(std::string camp, long long value){
     // Filename
     const std::string file = "data/data.json";
     
@@ -39,7 +39,7 @@ void writeName(std::string name){
     o.close();
 }
 
-void writeItem(std::string camp, int value){
+void writeItem(std::string camp, long long value){
     // Filename
     const std::string file = "data/data.json";
     
@@ -56,7 +56,7 @@ void writeItem(std::string camp, int value){
     o.close();
 }
 
-int getData(std::string camp){
+long long getData(std::string camp){
     // Filename
     const std::string file = "data/data.json";
     
@@ -90,7 +90,7 @@ std::string getName(){
     return data["player"]["name"];
 }
 
-int getItem(std::string camp){
+long long getItem(std::string camp){
     // Filename
     const std::string file = "data/data.json";
     

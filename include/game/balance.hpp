@@ -5,18 +5,18 @@
 namespace Economy{
 
 struct Balance {
-    int amount;
-    int limit;
+    long long amount;
+    long long limit;
 
-    void addBalance(int amount);
-    void setBalance(int amount);
-    void delBalance(int amount);
+    void addBalance(long long amount);
+    void setBalance(long long amount);
+    void delBalance(long long amount);
 
     void upgradeLimit();
     void checkBal();
 
-    int getBalance();
-    int getLimit();
+    long long getBalance();
+    long long getLimit();
 };
 
 }

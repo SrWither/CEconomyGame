@@ -22,14 +22,11 @@ class Player {
         Pickaxe *pickaxe = new Pickaxe();
         Axe *axe = new Axe();
         Fishrod *fishrod = new Fishrod();
-        
-        void setHp(int amount);
-        void lvlUp();
 
     private:
         bool m_hasData = true;
-        int m_level;
-        int m_hp;
+        long long m_level;
+        long long m_hp;
 };
 
 }

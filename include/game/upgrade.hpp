@@ -2,14 +2,10 @@
 #ifndef UPGRADE_HPP
 #define UPGRADE_HPP
 
-#include <game/item.hpp>
+#include <string>
 
 namespace Economy{
-    
-    template<typename T>
-    T upgradeItem(T item, Economy::ItemList);
-    
-    template<typename T>
-    T upgradeBalSize();
+    void upgradeItem(std::string camp);
+    void upgradePlayer();
 }
 #endif

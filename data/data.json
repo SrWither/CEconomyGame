@@ -1,11 +1,11 @@
 {
     "player": {
-        "balance": 10000,
+        "balance": 100,
         "hp": 100,
         "items": {
             "axe": 0,
             "fishrod": 0,
-            "pickaxe": 0
+            "pickaxe": 100000000000
         },
         "limit": 10000,
         "lvl": 1,

@@ -1,5 +1,8 @@
 #include <game/item.hpp>
+#include <game/balance.hpp>
 #include <json/utils.hpp>
+#include <iostream>
+#include <unistd.h>
 
 namespace Economy{
 
@@ -12,6 +15,20 @@ Pickaxe::Pickaxe() {
 
 Pickaxe::~Pickaxe(){
 
+}
+
+void Pickaxe::Mine() {
+    if(GameJson::getItem("pickaxe") <= 0) {
+        std::cout << "No tienes pico" << std::endl;
+        sleep(1);
+    } else {
+        Economy::Balance *bal = new Economy::Balance();
+        long long amount = rand() % 200 + 700 * GameJson::getItem("pickaxe");
+        bal->addBalance(amount);
+        std::cout << "Has minado y ganaste " << amount << "$" << std::endl;
+        sleep(1);
+        delete bal;
+    }
 }
 
 // Initialize axe

@@ -50,7 +50,7 @@ Fishrod::Fishrod() {
 }
 
 Fishrod::~Fishrod(){
-    
+
 }
 
 }

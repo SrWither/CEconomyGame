@@ -1,4 +1,3 @@
-#pragma once
 #ifndef PLAYER_HPP
 #define PLAYER_HPP
 
@@ -11,7 +10,7 @@ namespace Economy {
 // Player properties
 class Player {
     public:
-        
+
         Player();
         void UpdatePlayer();
         virtual ~Player();

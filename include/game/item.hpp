@@ -1,4 +1,3 @@
-#pragma once
 #ifndef ITEM_HPP
 #define ITEM_HPP
 #include <string>

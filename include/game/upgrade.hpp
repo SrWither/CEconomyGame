@@ -1,4 +1,3 @@
-#pragma once
 #ifndef UPGRADE_HPP
 #define UPGRADE_HPP
 

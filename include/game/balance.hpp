@@ -1,4 +1,3 @@
-#pragma once
 #ifndef BALANCE_HPP
 #define BALANCE_HPP
 

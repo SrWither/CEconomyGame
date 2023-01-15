@@ -5,7 +5,7 @@
         "items": {
             "axe": 0,
             "fishrod": 0,
-            "pickaxe": 100000000000
+            "pickaxe": 1
         },
         "limit": 10000,
         "lvl": 1,
